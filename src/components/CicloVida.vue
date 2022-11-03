@@ -4,9 +4,6 @@
         <button @click="cambiarSaludo()">
             Mostrar saludo
         </button>
-        <button v-on:click="sdsdad">
-            
-        </button>
         <h2 style="background-color:white;color:red">
             {{saludo}}
         </h2>

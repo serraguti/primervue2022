@@ -3,6 +3,7 @@ import HomeComponent from './components/HomeComponent.vue';
 import CineComponent from './components/CineComponent.vue';
 import MusicaComponent from './components/MusicaComponent.vue';
 import CicloVida from './components/CicloVida.vue';
+import DirectivasComponent from './components/DirectivasComponent.vue';
 
 const misRutas = [
     {
@@ -16,6 +17,9 @@ const misRutas = [
     }, 
     {
         path: "/hooks", component: CicloVida
+    },
+    {
+        path: "/directivas", component: DirectivasComponent
     }
 ]
 
