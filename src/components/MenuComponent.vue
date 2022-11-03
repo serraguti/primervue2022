@@ -15,7 +15,13 @@
                     <router-link to="/hooks">Hooks</router-link> | 
                 </li>
                 <li>
-                    <router-link to="/directivas">Directivas</router-link>
+                    <router-link to="/directivas">Directivas</router-link> | 
+                </li>
+                <li>
+                    <router-link to="/conmutada">Conmutada</router-link> | 
+                </li>
+                <li>
+                    <router-link to="/filters">Métodos Filters</router-link>
                 </li>
             </ul>
         </nav>
