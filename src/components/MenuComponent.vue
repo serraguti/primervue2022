@@ -3,13 +3,16 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <router-link to="/">Home</router-link>
+                    <router-link to="/">Home</router-link> | 
                 </li>
                 <li>
-                    <router-link to="/cine">Cine</router-link>
+                    <router-link to="/cine">Cine</router-link> | 
                 </li>
                 <li>
-                    <router-link to="/musica">Musica</router-link>
+                    <router-link to="/musica">Musica</router-link> | 
+                </li>
+                <li>
+                    <router-link to="/hooks">Hooks</router-link>
                 </li>
             </ul>
         </nav>

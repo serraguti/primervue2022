@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeComponent from './components/HomeComponent.vue';
 import CineComponent from './components/CineComponent.vue';
 import MusicaComponent from './components/MusicaComponent.vue';
+import CicloVida from './components/CicloVida.vue';
 
 const misRutas = [
     {
@@ -12,6 +13,9 @@ const misRutas = [
     }, 
     {
         path: "/cine", component: CineComponent
+    }, 
+    {
+        path: "/hooks", component: CicloVida
     }
 ]
 
